@@ -15,6 +15,9 @@ public class HelloWorldController {
 	@GetMapping ("/Bsms")
 public String[] exibirBsm() {
 	return array;
-}
-
+	}
+	@GetMapping ("/Objetivos")
+	public String objetivos() {
+	return "Meu objetivo essa semana é aprender spring boot";
+	}
 }
